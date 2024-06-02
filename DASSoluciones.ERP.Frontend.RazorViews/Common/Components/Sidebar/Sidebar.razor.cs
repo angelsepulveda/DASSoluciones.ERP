@@ -3,5 +3,5 @@
 public partial class Sidebar : ComponentBase
 {
     [Parameter]
-    public bool Sidebar1Expanded { get; set; }  = true;
+    public bool Sidebar1Expanded { get; set; }
 }

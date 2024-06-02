@@ -17,10 +17,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="wwwroot\css\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <EmbeddedResource Update="Common\Resources\Messages.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Message.Designer.cs</LastGenOutput>
@@ -37,6 +33,11 @@
 
     <ItemGroup>
       <ProjectReference Include="..\DASSoluciones.ERP.Frontend.ViewModels\DASSoluciones.ERP.Frontend.ViewModels.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\Images\Logo.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Images\LogoBlanco.png" />
     </ItemGroup>
 
 </Project>
