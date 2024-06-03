@@ -1,4 +1,4 @@
-﻿namespace DASSoluciones.ERP.Entities.WareHouse.Categories;
+﻿namespace DASSoluciones.ERP.Entities.Modules.WareHouse.Categories;
 
 public class GetAllCategoriesDto(int id, string name, string? description, bool state)
 {
